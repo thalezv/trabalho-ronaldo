@@ -131,6 +131,7 @@ li a {
 	text-align: center;
 	top: 270px;
 	left: 120px;
+	right:120px;
 }
 
 .left-column
@@ -158,9 +159,19 @@ li a {
 .center-column
 {
 	float:left;
-	width:40%;
+	width:35%;
 	background-color:#fff;
 	border-color: #00b8e6;
 	margin: 1px;
 	padding: 0;
 }
+
+.livro
+{
+	position: absolute;
+	left: 1163px;
+	top: 161px;
+	width: 127px;
+	height: 264px;
+}
+
