@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+.img_header{
+	position: absolute;
+	height: 119px;
+	left: -1px;
+	top: 0px;
+	width: 201px;
+}
+
+.menu {
+	position: absolute;
+	left: 107px;
+	top: 163px;
+	width: 88px;
+	height: 0px;
+	
+}
+
+.Back{
+	position: absolute;
+	left: 0px;
+	width: 1360px;
+	top: 0px;
+	height: 662px;
+	background-color: #000000;
+	
+	
+}
+
+.Back2{
+	position: absolute;
+	left: 30px;
+	width: 1295px;
+	top: 17px;
+	height: 645px;
+	background-color: #F5F5F1;
+}
+
+.telefone{
+	position: absolute;
+	left: 326px;
+	top: 35px;
+	width: 216px;
+	height: 44px;
+}
+
+.telefone_numero{
+	position: absolute;
+	left: 67px;
+	top: -14px;
+	width: 211px;
+}
+
+.redes_sociais{
+	position: absolute;
+	left: 687px;
+	top: 20px;
+	width: 245px;
+	height: 109px;
+}
+
+#facebook_conteudo{
+	position: absolute;
+	left: 21px;
+}
+
+#facebook{
+	position: absolute;
+	left: 57px;
+	top: -8px;
+}
+
+#instagram_conteudo{
+	position: absolute;
+	left: 15px;
+	top: 51px;
+	width: 40px;
+}
+
+#instagram{
+	position: absolute;
+	left: 52px;
+	top: -8px;
+	height: 22px;
+}
+
+.central_aluno{
+	position: absolute;
+	left: 1016px;
+	top: -11px;
+	height: 140px;
+}
+
+.menu{
+	position: absolute;
+	width: 1030px;
+	height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00aeef;
+	box-shadow: 0px 2px 4px;
+	font-family: Saira Condensed;
+	font-size: 31px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-left: 45px;
+	padding-right: 45px;
+    text-decoration: none;
+}
+
+#flex-container
+{
+	position:absolute;
+	display: flex;
+	font-family: Roboto;
+	text-align: center;
+	top: 270px;
+	left: 120px;
+}
+
+.left-column
+{
+	float:left;
+	width:30%;
+	background-color:#fff;
+	border-color: #00b8e6;
+	border-top-left-radius: 8px;
+	margin: 1px;
+	padding: 0;
+}
+
+.right-column
+{
+	float:left;
+	width:30%;
+	background-color:#fff;
+	border-color: #00b8e6;
+	border-top-right-radius: 8px;
+	margin: 1px;
+	padding: 0;
+}
+
+.center-column
+{
+	float:left;
+	width:40%;
+	background-color:#fff;
+	border-color: #00b8e6;
+	margin: 1px;
+	padding: 0;
+}
