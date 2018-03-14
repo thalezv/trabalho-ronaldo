@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Esconder e Exibir Divs com Jquery</title>
+<script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("a").click(function(event){
+			var link = $(this);			
+			if(link.attr("id").match("esconder"))
+				$("#MeuDiv").hide("slow");
+			else
+				$("#MeuDiv").show("slow");
+			event.preventDefault();
+		});
+	})
+</script>
+</head>
+<body>
+    <div id="MeuDiv" style="background-color:orange; width:500px; height:500px;">
+    	Hello Word
+    </div>
+	<a id="esconder" href="#">Esconder [JQuery]</a>
+	<a id="exibir" href="#">Mostrar [Google]</a>
+</body>
+</html>
