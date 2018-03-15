@@ -18,6 +18,19 @@
 	
 }
 
+.prof{
+	position: absolute;
+	left: 15px;
+	top: 53px;
+}
+
+.conhecimentos{
+	position: absolute;
+	left: 148px;
+	top: 102px;
+	width: 259px;
+}
+
 .cursos_tradicionais{
 	position: absolute;
 	left: 507px;
@@ -205,6 +218,23 @@ li a:hover, .dropdown:hover .dropbtn {
 	position: absolute;
 	left: 466px;
 	top: 44px;
+}
+
+.opa_tio{
+	text-align: left;
+	position: absolute;
+	left: 283px;
+	top: 4px;
+	padding-right: 110px;
+}
+
+.opa_fion{
+	text-align: left;
+	position: absolute;
+	padding-right: 110px;
+	left: 636px;
+	top: 75px;
+	
 }
 
 .center-column
