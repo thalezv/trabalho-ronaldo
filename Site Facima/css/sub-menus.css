@@ -25,6 +25,30 @@
 	height: 59px;
 }
 
+.atividades_de_curso{
+	position: absolute;
+	left: 500px;
+	top: 210px;
+}
+
+.estagios{
+	position: absolute;
+	left: 548px;
+	top: 214px;
+}
+
+.biblioteca_online{
+	position: absolute;
+	left: 542px;
+	top: 213px;
+}
+
+.central_do_professor{
+	position: absolute;
+	left: 500px;
+	top: 214px;
+}	
+
 .Back{
 	position: absolute;
 	left: 0px;
@@ -170,6 +194,17 @@ li a:hover, .dropdown:hover .dropbtn {
 	top: 270px;
 	left: 120px;
 	right:110px;
+}
+
+.lol{
+	text-align: left;
+}
+
+.opa{
+	text-align: left;
+	position: absolute;
+	left: 466px;
+	top: 44px;
 }
 
 .center-column
