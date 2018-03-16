@@ -1,89 +1,56 @@
 @charset "utf-8";
-/* CSS Document */
-
-body
-{
-	text-decoration: none;
-}
-
-.prof{
-	position : absolute;
-	left: 25px;
-	top: 62px;
-}
-
-.conhecimentos{
-	position: absolute;
-	left: 157px;
-	top: 108px;
-	width: 383px;
-}
 
 .img_header{
 	position: absolute;
-	height: 119px;
+	height: 18.44%;
 	left: -1px;
 	top: 0px;
-	width: 201px;
+	width: 15.5%;
 }
 
 .menu {
 	position: absolute;
 	left: 107px;
 	top: 163px;
-	width: 88px;
-	height: 0px;
-	
+    width: 79.5%;
+	height: 7.75%;
 }
 
-.cursos_tradicionais{
+.cursos{
 	position: absolute;
-	left: 507px;
-	top: 204px;
+	left: 566px;
+	top: 208px;
 	height: 59px;
 }
 
-.atividades_de_curso{
+.informes{
 	position: absolute;
-	left: 500px;
-	top: 210px;
+	left: 568px;
+	top: 211px;
 }
 
-.estagios{
+.aluno{
 	position: absolute;
-	left: 548px;
-	top: 214px;
+	left: 584px;
+	top: 209px;
 }
 
-.biblioteca_online{
+.servicos_online{
 	position: absolute;
-	left: 542px;
-	top: 213px;
+	left: 512px;
+	top: 209px;
 }
 
-.central_do_professor{
-	position: absolute;
-	left: 500px;
-	top: 214px;
-}	
-
-.Back{
-	position: absolute;
-	left: 0px;
-	width: 1360px;
-	top: 0px;
-	height: 662px;
+body{
 	background-color: #000000;
-	
-	
 }
 
 .Back2{
 	position: absolute;
-	left: 30px;
-	width: 1295px;
+	left: 2.20%;
+	width: 95.2%;
 	top: 17px;
-	height: 645px;
+	height: 97.4%;
 	background-color: #F5F5F1;
 }
 
@@ -91,23 +58,23 @@ body
 	position: absolute;
 	left: 326px;
 	top: 35px;
-	width: 216px;
-	height: 44px;
+	width: 16.67%;
+	height: 6.82%;
 }
 
 .telefone_numero{
 	position: absolute;
 	left: 67px;
 	top: -14px;
-	width: 211px;
+	width: 97.6%;
 }
 
 .redes_sociais{
 	position: absolute;
 	left: 687px;
 	top: 20px;
-	width: 245px;
-	height: 109px;
+	width: 18.9%;
+	height: 16.89%;
 }
 
 #facebook_conteudo{
@@ -125,38 +92,32 @@ body
 	position: absolute;
 	left: 15px;
 	top: 51px;
-	width: 40px;
+	width: 16.3%;
 }
 
 #instagram{
 	position: absolute;
 	left: 52px;
 	top: -8px;
-	height: 22px;
+	height: 20.18%;
 }
 
 .central_aluno{
 	position: absolute;
 	left: 1016px;
 	top: -11px;
-	height: 140px;
-}
-
-.menu{
-	position: absolute;
-	width: 1030px;
-	height: 50px;
+	height: 21.7%;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     overflow: hidden;
     background-color: #00aeef;
 	box-shadow: 0px 2px 4px;
 	font-family: Saira Condensed;
-	font-size: 31px;
+	font-size: 1.9375em;
 	
 }
 
@@ -192,7 +153,7 @@ li a:hover, .dropdown:hover .dropbtn {
     text-decoration: none;
     text-align: left;
 	display: block;
-	font-size:20px;
+	font-size: 0.75em;
 }
 
 .dropdown-content a:hover {
@@ -214,28 +175,32 @@ li a:hover, .dropdown:hover .dropbtn {
 	right:110px;
 }
 
-.lol{
-	text-align: left;
+.left-column
+{
+	float:left;
+	width:30%;
+	background-color:#fff;
+	border-color: #00b8e6;
+	border-top-left-radius: 8px;
+	margin: 1px;
+	padding: 0;
 }
 
-.opa{
-	text-align: left;
-	position: absolute;
-	left: 509px;
-	top: 36px;
-}
-
-.opa_fion{
-	position: absolute;
-	text-align: left;
-	left: 232px;
-	top: 2px;
+.right-column
+{
+	float:left;
+	width:30%;
+	background-color:#fff;
+	border-color: #00b8e6;
+	border-top-right-radius: 8px;
+	margin: 1px;
+	padding: 0;
 }
 
 .center-column
 {
 	float:left;
-	width:90%;
+	width:35%;
 	background-color:#fff;
 	border-color: #00b8e6;
 	margin: 1px;
@@ -247,6 +212,7 @@ li a:hover, .dropdown:hover .dropbtn {
 	position: absolute;
 	left: 1163px;
 	top: 161px;
-	width: 127px;
-	height: 264px;
+	width: 9.8%;
+	height: 40.9%;
 }
+
